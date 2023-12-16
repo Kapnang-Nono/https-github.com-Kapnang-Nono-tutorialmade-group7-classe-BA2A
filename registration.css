@@ -1,0 +1,47 @@
+.register {
+    border: 2px groove dimgray;
+    width: 28vw;
+    height: 78vh;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    margin:  2rem auto;
+    /* padding: 1rem; */
+    padding-left: 2em;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.controls label {
+    display: flex;
+}
+
+.controls input {
+    width: 22vw;
+    height: 4vh;
+    border: 2px groove;
+    padding-left: 2em;
+}
+
+#submit {
+    margin-top: 1em;
+    border: none;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    height: 5vh;
+}
+
+#submit:hover{
+    filter: brightness(.9);
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 9px;
+}
+

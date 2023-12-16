@@ -1,0 +1,75 @@
+.form {
+    border: 2px groove dimgray;
+    width: 20vw;
+    height: 30vh;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    margin:  10rem auto;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.login {
+    font-size: 10px;
+    color: green;
+    font-family: cursive;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-size: 9px;
+}
+
+.input-control {
+    /* display: flex; */
+    justify-content: center;
+    line-height: 2;
+}
+
+.input-control label {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.input-control input {
+    width: 20vw;
+    height: 4vh;
+
+}
+
+#submit {
+    margin-top: 2em;
+    border-radius: 10px;
+    color: #fff;
+    height: 5vh;
+    background-color: green;
+    border: none;
+    padding: .5em;
+    text-align: center;
+    font-style: 17px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    filter: hue-rotate(110deg);
+}
+
+.create{
+    margin-top: .8em;
+}
+
+.create span {
+    font-size: 12px;
+}
+
+.create span > a {
+    color: red;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.create span > a:hover {
+    color: teal;
+}
